@@ -1,0 +1,139 @@
+#registermain {
+
+    width: 100vw;
+    height: 87vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    /* position: fixed; */
+    /* margin-top: 11vh; */
+
+}
+
+#registerleftlogo{
+    width:100%;
+    height:100%;
+}
+
+.registerdivs {
+
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid blue; */
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.347);
+
+}
+
+#registerdivmid {
+
+    width: 0px;
+    border: 1px solid rgb(92, 3, 3);
+    box-shadow: 0 0 0 0;
+
+}
+
+#registerdivright {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around; */
+    align-items: center;
+    /* background-color: #151515; */
+    background-color: #181818;
+
+}
+
+#rdrtext {
+
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid green; */
+    color: #d9dbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#rdrhead{
+
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 35px;
+
+}
+
+#rdrheadlogo{
+    color:#ae2d2c;
+}
+
+#rdrinfo{
+
+    font-size: 12px;
+
+}
+
+#rdrform{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:100%;
+
+}
+
+.rdrforminpgroup{
+
+    width:50%;
+    height:50px;
+    /* border:1px solid yellow; */
+    color:#d9dbe2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.rdrformicon{
+
+    color:#d9dbe2;
+    font-size: 20px;
+
+}
+
+.rdrforminp{
+
+    height:30px;
+    width:60%;
+    background-color: #d9dbe2;
+    border:0px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.rdrformbt{
+
+    margin-top: 5%;
+    width:40%;
+    height:30px;
+    background-color: #ae2d2c;
+    color: #d9dbe2;
+    font-weight: 200;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+#rdrlink{
+    margin-top:1%;
+    text-decoration: none;
+    color: #d9dbe2;
+}

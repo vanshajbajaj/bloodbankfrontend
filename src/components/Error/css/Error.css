@@ -1,0 +1,32 @@
+#errormain{
+
+    width:100vw;
+    height:89vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#errormain h1{
+    color:#ae2d2c;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+#errormain p{
+    color:#d9dbe2;
+
+}
+
+#errornl{
+    background-color: #ae2d2c;
+    width:200px;
+    height:30px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}

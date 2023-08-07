@@ -1,0 +1,97 @@
+#nbdiv{
+
+    width:100vw;
+    height:11vh;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 2px 2px 3px 30px #8d8f92ac; */
+    /* position: fixed; */
+    /* margin-top:0px; */
+
+}
+
+#nbimgdiv{
+
+    width:16%;
+    height:100%;
+    /* border:2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+
+}
+
+#nbimgdiv img{
+
+    height:67%;
+    width:67%;
+    animation: beat 1s 0s infinite ease-out;
+
+}
+
+@keyframes beat{
+
+    0%{
+        height:67%;
+        width:67%;
+    }
+    5%{
+        height:72%;
+        width:72%;
+    }
+    18%{
+        height:70%;
+        width:70%;
+    }
+    24%{
+        height:78%;
+        width:78%;
+    }
+    /* 28%{
+        height:78%;
+        width:78%;
+    } */
+    100%{
+        height:65%;
+        width:65%;
+    }
+
+}
+
+#nblinksdiv{
+
+    width:36%;
+    height:100%;
+    /* border:2px solid green; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1%;
+
+}
+
+.nblink{
+
+    width:20%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nblink:hover{
+    background-color: #2b2b2d;
+}
+
+.nblink a{
+    text-decoration: none;
+    color:#d9dbe2;
+    font-weight: 600;
+    letter-spacing: 2px;
+}

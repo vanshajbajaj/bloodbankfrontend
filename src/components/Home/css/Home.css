@@ -1,0 +1,253 @@
+#homemain{
+
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#homehead{
+    width:100%;
+    height:80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hhl{
+    height:90%;
+    width:45%;
+    /* border:1px solid yellow; */
+}
+
+#hhlimg{
+    width:100%;
+    height:100%;
+}
+
+#hhr{
+    height:70%;
+    width:50%;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #1f1e1e84; */
+}
+
+#hhr1{
+    color:#ae2d2c;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#hhr2{
+    color:#d9dbe2;
+    font-size: 55px;
+    font-weight: 500;
+    text-shadow: 4px 4px 10px #720c0c;
+    animation: chgcolor 3s alternate-reverse 0s infinite ease-in-out;
+}
+
+@keyframes chgcolor{
+
+    0%{
+        color:#d9dbe2;
+    }
+    50%{
+        color:#ae2d2c;
+    }
+    100%{
+        color:#d9dbe2;
+    }
+
+}
+
+#hhr3{
+    color:#d9dbe2;
+    font-size: 18px;
+}
+
+#hhr4{
+
+    text-decoration: none;
+    background-color: #ae2d2c;
+    color: #d9dbe2;
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #d9dbe2;
+    margin-bottom: 30px;
+
+}
+
+#hhr4:hover{
+    transition: all;
+    box-shadow: 0px 0px 5px 1px #bcb9b9e6;
+}
+
+#hhr5{
+    text-decoration: none;
+    color: #d9dbe2;
+}
+
+#homemid{
+    width:85%;
+    /* border:1px solid yellow; */
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homesubdiv{
+
+    width:25%;
+    height:85%;
+    /* border:1px solid green; */
+    background-color: #1f1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 1px #750e0e83;
+
+}
+
+.homesubdiv:hover{
+    transition: all;
+    box-shadow: 0px 0px 5px 1px #bcb9b9e6;
+}
+
+#homesubdiv2{
+    background-color: #ae2d2c;
+}
+
+.subdivcontent{
+    width:80%;
+    height:80%;
+}
+
+.subdivlogo{
+    color:#ae2d2c;
+    font-size: 50px;
+}
+
+.subdivlogo2{
+    color:#d9dbe2;
+    font-size: 50px;
+}
+
+#subdivp2{
+    font-size: 20px;
+    color: #d9dbe2;
+}
+
+.subdivp1{
+    font-size: 27px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px #6b070789;
+}
+
+.subdivp2{
+    font-size: 20px;
+    color: #ae2d2c;
+}
+
+#noticediv{
+
+    width:90%;
+    height:70vh;
+    /* border:1px solid blue; */
+    /* background-color: #d9dbe22d; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nsd{
+    width:45%;
+    height:80%;
+    /* border:1px solid green; */
+}
+
+#ndl{
+    display: flex;
+    flex-direction: column;
+}
+
+#ndlp{
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    text-align: center;
+    color:#ae2d2c;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+#ndrimg{
+    width:100%;
+    height:100%;
+}
+
+#ndlcontent{
+    color:white;
+    background-color: #595a5c48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    height:90%;
+}
+
+.noticeli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    width:100%;
+    height:40px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ae2c2cab;
+}
+
+.noticeli:hover{
+    transition: all;
+    box-shadow: 0px 0px 5px 1px #bcb9b9e6;
+}
+
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }

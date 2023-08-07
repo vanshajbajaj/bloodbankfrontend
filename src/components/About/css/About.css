@@ -1,0 +1,279 @@
+#profilemaindiv{
+
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+#profilenamediv{
+
+    width:100%;
+    height:50vh;
+    background: linear-gradient(110deg, #242424 60%,black 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 200;
+
+}
+
+.profilehead{
+
+    color:#d9dbe2;
+
+}
+
+.profilename{
+
+    color:#ae2d2c;
+
+}
+
+#profileinfodiv{
+
+    width:100%;
+    height:80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#profilecount{
+
+    width:20%;
+    height:100%;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.reqcountbar{
+
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow:0px 0px 8px 1px gray ;
+    background-color: #242424;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reqcounterhead{
+    font-size: 50px;
+    font-weight: 100;
+    /* margin-top: 50%; */
+    color:#ae2d2c
+}
+
+.reqcounterinfo{
+    
+    font-size: 30px;
+    font-weight: 100;
+    /* margin-bottom: 10%; */
+
+}
+
+#profileallreq{
+
+    width:70%;
+    height:80%;
+    /* border:1px solid red; */
+    box-shadow:0px 0px 8px 1px gray ;
+    color:#d9dbe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+
+}
+
+#profiletable2{
+
+    width:100%;
+    height:100%;
+    /* margin-top: 100px; */
+    text-align: center;
+    overflow-y: scroll;
+    /* height:100px; */
+    /* border:2px solid #ae2d2c; */
+
+}
+
+
+tr{
+    height:50px;
+}
+
+td,th{
+    border-spacing: 5px;
+}
+
+#profilereqdiv{
+
+    width:100%;
+    height:80vh;
+    /* background-color: #242424; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.profilereqformdiv{
+
+    height:85%;
+    width:45%;
+    background-color: #242424;
+    /* background-color: black; */
+
+}
+
+#adrtext1{
+
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid green; */
+    color: #d9dbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#adrtext2{
+
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid green; */
+    color: #d9dbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#adrhead{
+
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 30px;
+
+}
+
+#adrheadlogo{
+    color:#ae2d2c;
+}
+
+#adrinfo{
+
+    font-size: 12px;
+
+}
+
+#adrform{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:90%;
+
+}
+
+.adrforminpgroup2{
+
+    width:50%;
+    height:50px;
+    /* border:1px solid red; */
+    color:#d9dbe2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.abc{
+    border:0px;
+}
+
+.adrformicon{
+
+    color:#d9dbe2;
+    font-size: 20px;
+
+}
+
+.trcss{
+    background-color: #242424af;
+    border: 0px solid rgb(242, 235, 235);
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ab{
+    color:#ae2d2c;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #3e3b3b57;
+}
+
+.tccss{
+    border: 1px solid rgba(86, 21, 21, 0.566);
+    height:100%;
+    width:18%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.adrforminp{
+
+    height:30px;
+    width:60%;
+    background-color: #d9dbe2;
+    border:0px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.adrformbt{
+
+    margin-top: 5%;
+    width:40%;
+    height:30px;
+    background-color: #ae2d2c;
+    color: #d9dbe2;
+    font-weight: 200;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+#adrlink{
+    margin-top:1%;
+    text-decoration: none;
+    color: #d9dbe2;
+}

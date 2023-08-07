@@ -1,0 +1,158 @@
+#adminmain{
+
+    width:100vw;
+    height:110vh;
+    background-color: black;
+
+}
+
+#adminhead{
+
+    width:100%;
+    height:30vh;
+    background: linear-gradient(110deg, #242424 60%,black 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: #d9dbe2;
+
+}
+
+
+#adrtext {
+
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid green; */
+    color: #d9dbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#adhead{
+    color:#d9dbe2;
+}
+
+#adname{
+    color:#ae2d2c;
+}
+
+.trcss{
+    background-color: #242424af;
+    border: 0px solid rgb(242, 235, 235);
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ab{
+    color:#ae2d2c;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #3e3b3b57;
+}
+
+.tccss{
+    border: 1px solid rgba(86, 21, 21, 0.566);
+    height:100%;
+    width:18%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#adminsendupdate{
+    width:50%;
+    margin: auto;
+    margin-top:20px;
+    height:70vh;
+    /* border:1px solid blue; */
+    background-color: #242424;
+}
+
+#adrhead{
+
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 35px;
+
+}
+
+#adrheadlogo{
+    color:#ae2d2c;
+}
+
+#adrinfo{
+
+    font-size: 12px;
+
+}
+
+#adrform{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:70%;
+
+}
+
+.adrforminpgroup{
+
+    width:50%;
+    height:50px;
+    /* border:1px solid yellow; */
+    color:#d9dbe2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.adrformicon{
+
+    color:#d9dbe2;
+    font-size: 20px;
+
+}
+
+.adrforminp{
+
+    height:30px;
+    width:60%;
+    background-color: #d9dbe2;
+    border:0px;
+    border-radius: 4px;
+    text-align: center;
+    /* margin-top: 10%; */
+
+}
+
+.adrformbt{
+
+    margin-top: 5%;
+    width:40%;
+    height:30px;
+    background-color: #ae2d2c;
+    color: #d9dbe2;
+    font-weight: 200;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+#adrlink{
+    margin-top:1%;
+    text-decoration: none;
+    color: #d9dbe2;
+}
